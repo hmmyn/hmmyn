@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hmmyn</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon.png">
+    </head>
+    <body>
+        <div class="container">
+            <!-- Welcome Text -->
+            <div id="welcomeText">
+                <h1>hmmyn</h1>
+            </div>
+
+            <!-- Orb -->
+            <div id="orb"></div>
+
+            <!-- Celestial Menu -->
+            <div id="celestialMenu">
+                <div id="meteorIcon">
+                    <div class="menu-dot"></div>
+                    <div class="menu-dot"></div>
+                    <div class="menu-dot"></div>
+                </div>
+                <div id="dropdownContent">
+                    <div class="menu-item" data-section="about">About</div>
+                    <div class="menu-item" data-section="support">Support Us</div>
+                </div>
+            </div>
+
+            <!-- Sections -->
+            <div id="aboutSection" class="hidden">
+                <h2>Hmmyn</h2>
+                <p>A Selfness Initiative; work in progress :)</p>
+            </div>
+            <div id="supportSection" class="hidden">
+                <h2>Support Us</h2>
+                <p><a href="https://paypal.me/hmmyn" target="_blank" rel="noopener noreferrer">PayPal.Me/hmmyn</a></p>
+                <p>info@hmmyn.com</p>
+            </div>
+
+            <input id="filePick" type="file" accept="audio/*" style="display:none">
+        </div>
+        <script src="script.js"></script>
+        <script src="celestial-menu.js"></script>
+    </body>
+</html>
